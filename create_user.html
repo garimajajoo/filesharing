@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Creating User</title></head>
+<body>
+You are NOT a registered user. Please enter a valid username.
+<br>
+<!-- allows user to register their username. form sends them to add_user.php which will add them to the users txt file and create a directory for the new user  -->
+<form action=add_user.php method="POST">
+<label>To create an account type in your username:<input type="text" name="new"/></label>
+<input type="submit" value="Create User"/>
+</form>
+</body>
+</html>
